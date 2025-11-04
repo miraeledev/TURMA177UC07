@@ -23,6 +23,8 @@ export default class UsuarioModel{
         if(index === -1){
             return false;
         }
+        usuarios.splice(index, 1);
+        return true;
         
     }};
 
